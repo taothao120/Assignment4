@@ -15,7 +15,7 @@ int main()
       if ( rain < 0 )
         throw "0";
     }
-    catch(int n){ cout << "Error" << n ;}
+    catch(const char* n){ cout << "Error" << n ;}
     rainfall[i] = rain;
   }
   
